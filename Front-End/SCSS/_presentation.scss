@@ -1,0 +1,26 @@
+$backgraundbodyP: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),url(/Peliculas_Pag/Front-End/img/theatre-551797_1920.jpg);
+
+.body{
+
+    background: black;
+}
+
+.Presentation{
+
+    height: 600px;
+    width:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: $backgraundbodyP;
+    background-position:bottom;
+    background-size:auto;
+    
+}
+
+.PresentationText {
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: xx-large;
+  }

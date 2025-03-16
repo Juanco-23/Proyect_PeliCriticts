@@ -1,0 +1,46 @@
+
+$color:white;
+
+.card-body{
+
+    background-color:rgb(153, 1, 1);
+    height:90px;
+
+    .card-title{
+
+        text-align: center;
+        opacity:initial;
+        
+    }
+    
+    .bodyDescription{
+
+        background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),url(/Peliculas_Pag/Front-End/img/Drac.jpg);
+        background-position:top;
+        background-size:auto;
+    }
+
+    .form-label{
+
+        color: $color;
+        text-align:end;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size:xx-large;
+    
+    }
+    
+}
+
+
+.list-group-item{
+    background-color: rgb(26, 25, 25);
+    color: $color;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: large;
+
+}
+
+
+
+
+
